@@ -8,6 +8,9 @@
   <meta http-equiv="x-ua-compatible" content="IE=edge"/>
   <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,shrink-to-fit=no,minimal-ui"/>
   <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <link rel="canonical" href="https://nicolassilvani.github.io/debathlon/" />
+  <link rel="manifest" href="/debathlon/manifest.webmanifest">
+
   <style>
     html, body { height: 100%; padding: 0; margin: 0 }
     #app { height: 100%; width: 100%; }
@@ -464,6 +467,14 @@
   
 
   <link rel="stylesheet" href="html5/data/css/output.min.css" data-noprefix/>
+  <script>
+    if (navigator.serviceWorker) {
+      navigator.serviceWorker.register (
+        '/debathlon/sw.js',
+        {scope: '/debathlon/'}
+      )
+    }
+  </script>
 </body>
 <script src="html5/lib/scripts/bootstrapper.min.js"></script>
 </html>
