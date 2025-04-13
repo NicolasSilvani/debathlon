@@ -1,11 +1,11 @@
 {
     "name": "Débathlon",
-    "short_name": "DBLPWA",
+    "short_name": "Débathlon",
     "description": "Github Page as a Progressive Web App",
     "scope": "/debathlon/",
     "start_url": "/debathlon/",
-    "background_color": "#ffff00",
-    "theme_color": "#ffff00",
+    "background_color": "#ef5064",
+    "theme_color": "#ef5064",
     "display": "standalone", 
     "icons": [
         {
