@@ -17,21 +17,21 @@
   ],
   "screenshots" : [
     {
-      "src": "/debathlon/mobile/screenshots/home.jpg",
+      "src": "/debathlon/mobile/screenshots/home.jpeg",
       "sizes": "996x2048",
       "type": "image/jpg",
       "platform": "android",
       "label": "Ecran d'accueil de l'application"
     },
     {
-      "src": "/debathlon/mobile/screenshots/rules.jpg",
+      "src": "/debathlon/mobile/screenshots/rules.jpeg",
       "sizes": "996x2048",
       "type": "image/jpg",
       "platform": "android",
       "label": "Ecran de règles du jeu"
     },
     {
-      "src": "/debathlon/mobile/screenshots/theme.jpg",
+      "src": "/debathlon/mobile/screenshots/theme.jpeg",
       "sizes": "996x2048",
       "type": "image/jpg",
       "platform": "android",
