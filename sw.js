@@ -8,7 +8,7 @@ var APP_PREFIX = 'dblpwa_';
 // you need to change this version (version_01, version_02…). 
 // If you don't change the version, the service worker will give your
 // users the old files!
-var VERSION = 'version_01';
+var VERSION = 'version_02';
  
 // The files to make available for offline use. make sure to add 
 // others to this list
@@ -40,6 +40,5 @@ var URLS = [
     `${GHPATH}/story_content/triggers.js`,
     `${GHPATH}/story_content/user.js`,
     `${GHPATH}/mobile/icon-512x512.png`,
-    `${GHPATH}/mobile/icon-362x362.png`,
 ]
 

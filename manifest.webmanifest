@@ -1,17 +1,50 @@
 {
-    "name": "Débathlon",
-    "short_name": "Débathlon",
-    "description": "Github Page as a Progressive Web App",
-    "scope": "/debathlon/",
-    "start_url": "/debathlon/",
-    "background_color": "#ef5064",
-    "theme_color": "#ef5064",
-    "display": "standalone", 
-    "icons": [
-        {
-          "src": "/debathlon/mobile/icon-512x512.png",
-          "type": "image/png",
-          "sizes": "512x512"
-        }
-    ]
-  }
+  "name": "Débathlon",
+  "short_name": "Débathlon",
+  "id": "/?version=02",
+  "description": "Débathlon est un jeu de débat créé par Jean-Baptiste Reversat. L'application est utilisée pour consulter les règles et générer des thèmes de débat.",
+  "scope": "/debathlon/",
+  "start_url": "/debathlon/",
+  "background_color": "#ef5064",
+  "theme_color": "#ef5064",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/debathlon/mobile/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "screenshots" : [
+    {
+      "src": "/debathlon/mobile/screenshots/home.jpg",
+      "sizes": "996x2048",
+      "type": "image/jpg",
+      "platform": "android",
+      "label": "Ecran d'accueil de l'application"
+    },
+    {
+      "src": "/debathlon/mobile/screenshots/rules.jpg",
+      "sizes": "996x2048",
+      "type": "image/jpg",
+      "platform": "android",
+      "label": "Ecran de règles du jeu"
+    },
+    {
+      "src": "/debathlon/mobile/screenshots/theme.jpg",
+      "sizes": "996x2048",
+      "type": "image/jpg",
+      "platform": "android",
+      "label": "Ecran de génération de thèmes de débat"
+    }
+  ],
+  "launch_handler": {
+    "client_mode": ["navigate-existing", "auto"]
+  },
+  "dir": "ltr",
+  "lang": "fr",
+  "orientation": "portrait",
+  "categories": [
+    "games"
+  ]
+}
