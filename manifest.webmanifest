@@ -9,9 +9,14 @@
     "display": "standalone", 
     "icons": [
         {
-          "src": "/debathlon/mobile/icon.png",
+          "src": "/debathlon/mobile/icon-362x362.png",
           "type": "image/png",
           "sizes": "362x362"
+        },
+        {
+          "src": "/debathlon/mobile/icon-512x512.png",
+          "type": "image/png",
+          "sizes": "512x512"
         }
     ]
   }
