@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "io.github.nicolassilvani.twa",
+        "sha256_cert_fingerprints": ["C2:93:06:B6:43:4C:C8:46:00:0A:42:6E:00:7F:FD:33:B2:32:43:D1:4E:06:02:2F:55:4C:83:92:94:E2:E7:30"]
+      }
+    }]
