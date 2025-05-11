@@ -1,10 +1,10 @@
 {
   "name": "Débathlon",
   "short_name": "Débathlon",
-  "id": "/?version=03",
+  "id": "/?version=04",
   "description": "Débathlon est un jeu de débat créé par Jean-Baptiste Reversat. L'application est utilisée pour consulter les règles et générer des thèmes de débat.",
-  "scope": "/debathlon/",
-  "start_url": "/debathlon/",
+  "scope": "https://nicolassilvani.github.io/debathlon/",
+  "start_url": "https://nicolassilvani.github.io/debathlon/",
   "background_color": "#ef5064",
   "theme_color": "#ef5064",
   "display": "standalone",
